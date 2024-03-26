@@ -1,0 +1,29 @@
+.numberIncrement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3d8584;
+}
+
+.numbers {
+    position: absolute;
+    top: 100vh;
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    width: calc(100vw - 50px);
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    border: 8px solid transparent;
+    border-radius: 50%;
+    background: 
+    linear-gradient(white 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #3d8584, #17f0ec) border-box;
+    font-size: 20px;
+}
